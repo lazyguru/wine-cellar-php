@@ -15,6 +15,8 @@ Set Up:
 	mysql cellar -uroot < cellar.sql
 
 3. Deploy the webapp included in this repository.
-4. Open api/index.php. In the getConnection() function at the bottom of the page, make sure the connection parameters match your database configuration. 
+4. Open api/index.php. In the getConnection() function at the bottom of the page, make sure the connection parameters match your database configuration.
 5. Open main.js and make sure the rootURL variable matches your deployment configuration.
 6. Access the application in your browser. For example: http://localhost/cellar.
+
+NOTE: This version has been updated to allow the use of a separate read and write database.  This was done specifically for a demonstration on the use of MySQL replication for the [VenturaPHP Developers Group](http://www.venturaphp.org) and the [Ventura County Linux Users Group](http://vclug.org)
